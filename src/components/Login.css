@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Login {
+    min-width: 200px;
+    width: 50%;
+    max-width: 450px;
+    height: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.title {
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+    color: dodgerblue;
+    text-shadow: 5px 5px 10px #878787;
+    font-weight: 800;
+}
+
+.inputField {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.startButton {
+    font-size: 30px;
+    font-weight: 800;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.scoreButton {
+    font-size: 30px;
+    font-weight: 800;
+    width: 100%;
+    padding: 12px 20px;;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
